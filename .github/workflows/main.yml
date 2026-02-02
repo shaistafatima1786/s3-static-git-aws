@@ -19,8 +19,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.ASIAVA7OGS2GQYXSPU3Y }}
+          aws-secret-access-key: ${{ secrets.v6hmDcEjbWewRIv20CvE4OUdxYKU/D3m+xPZRI1y }}
           # Uncomment the next line if you added AWS_SESSION_TOKEN
           # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: us-east-1  # <-- change to your bucket's region
